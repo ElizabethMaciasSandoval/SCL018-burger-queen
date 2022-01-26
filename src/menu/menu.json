@@ -1,0 +1,104 @@
+{
+  "drinks": [
+    {
+      "id": "001",
+      "name": "Inca Kola",
+      "description": "Bebida de fantasia de sabor dulce y color amarillento de 1,5 Lts.",
+      "price": 1700,
+      "type": "Bebestible",
+      "img": "https://i.imgur.com/rmImwLV.jpg"
+    },
+    {
+      "id": "002",
+      "name": "Chicha Morada",
+      "description": "Bebida hecha de maiz morado, hervida con piña, clavos de olor y canela, de 250 ml.",
+      "price": 2500,
+      "type": "Bebestible",
+      "img": "https://i.imgur.com/Xmtlvsp.jpg"
+    },
+    {
+      "id": "003",
+      "name": "Pisco Sour",
+      "description": "Refrescante bebida alcoholica hecha con Pisco, limones de pica, menta e hielo, de 250 ml.",
+      "price": 2500,
+      "type": "Bebestible",
+      "img": "https://i.imgur.com/vQuDIoy.jpg"
+    },
+    {
+      "id": "004",
+      "name": "Cerveza Cusqueña",
+      "description": "Cerveza de categoría premium, con un nivel de Alcohol por volumen de 5.5%. Posee un delicado aroma a toffee y una cremosa espuma, de 330 ml. ",
+      "price": 3000,
+      "type": "Bebestible",
+      "img": "https://i.imgur.com/DR0InsJ.jpg"
+    },
+    {
+      "id": "005",
+      "name": "Jugo de frutillas",
+      "description": "Jugo hecho con frutillas frescas, agua purificada y un toque de menta, de 250 ml.",
+      "price": 2000,
+      "type": "Bebestible",
+      "img": "https://i.imgur.com/iKqyQ8b.jpg"
+    }
+  ],
+  "dishes":[
+    {
+      "id": "006",
+      "name": "Ceviche Peruano",
+      "description": "Pescado en cubos, marinados en zumo de limon de pica, cebolla morada cortada en pluma, camote, choclo y cancha pacho.",
+      "price": 8800,
+      "type": "Platillo",
+      "img": "https://i.imgur.com/hwy3DMH.jpg"
+    },
+    {
+      "id": "007",
+      "name": "Pollo a las Brasas",
+      "description": "Pollo entero adobado en aceite de oliva, salsa de soja, cerveza negra y especias, y abrasado a fuego lento.",
+      "price": 8000,
+      "type": "Platillo",
+      "img": "https://i.imgur.com/WhVqrbA.jpg"
+    },
+    {
+      "id": "008",
+      "name": "Papa a la huancaina",
+      "description": "Papa sancochada, bañada con salsa de ají molido, leche, aceite y queso fresco, acompañada con huevo, aceitunas y una porción de arroz.",
+      "price": 7800,
+      "type": "Platillo",
+      "img": "https://i.imgur.com/1EU79Sk.jpg"
+    },
+    {
+      "id": "009",
+      "name": "Lomo Saltado",
+      "description": "Lomo de ternera, cebollas crujientes y jugosas tiras de de tomates salteadas en un wok sobre papas fritas y arroz.",
+      "price": 8500,
+      "type": "Platillo",
+      "img": "https://i.imgur.com/muP3OHn.jpg"
+    },
+    {
+      "id": "010",
+      "name": "Aji de Gallina",
+      "description": "Pechuga de ave desmenuzada, en salsa base de nuez moscada, crema de leche y aji amarillo, acompañado de arroz y papas fritas.",
+      "price": 7800,
+      "type": "Platillo",
+      "img": "https://i.imgur.com/u9DTl69.jpg"
+    }
+  ],
+  "aggregates":[
+    {
+      "id": "011",
+      "name": "Porción de Papas",
+      "description": "Papas cortadas en hilo y fritas en aceite.",
+      "price": 2000,
+      "type": "Agregado",
+      "img": "https://i.imgur.com/4TWFzcj.jpg"
+    },
+    {
+      "id": "012",
+      "name": "Ensalada surtida",
+      "description": "Ensalada de lechuga con rebanadas de tomate, zanahoria, choclo y pepino.",
+      "price": 2000,
+      "type": "Agregado",
+      "img": "https://i.imgur.com/HTxMJlZ.jpg"
+    }
+  ]
+}
