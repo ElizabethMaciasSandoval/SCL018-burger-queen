@@ -1,18 +1,19 @@
-import React from 'react'
 import ButtonHome from '../ButtonHome'
-import Menu from '../Menu'
+import TakeOrder from '../TakeOrder';
+import { useState } from 'react/cjs/react.development'
 
 const ViewWaiter = () => {
+  const [order,setOrder] = useState(true);
   return (
     <div>
       <nav>
-      <button>Tomar pedido</button>
-      <button>Estado del pedido</button>
+      <button onClick={() => setOrder(true)} className='bg-gris-b rounded-md'>Tomar pedido</button>
+      <button onClick={() => setOrder(false)}className='bg-gris-b rounded-md'>Estado del pedido</button>
       <ButtonHome/>
       </nav>
-      <input type="text" placeholder='Ingresa el numero de la mesa'/>
-      <input type="text" placeholder='Ingresa el nombre del cliente'/>
-      <Menu/>
+      <>
+      {order === true ? <TakeOrder/> : <p>Estado de pedidos en construcción</p>}
+      </>
     </div>
   )
 }

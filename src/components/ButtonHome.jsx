@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ButtonHome = () => {
   return (
     <Link to='/'>
-      <button>
+      <button className='bg-gris-b rounded-md'>
         Volver
       </button>
     </Link>

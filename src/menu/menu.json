@@ -34,7 +34,7 @@
     },
     {
       "id": "005",
-      "name": "Jugo de frutillas",
+      "name": "Jugo de Frutillas",
       "description": "Jugo hecho con frutillas frescas, agua purificada y un toque de menta, de 250 ml.",
       "price": 2000,
       "type": "Bebestible",
@@ -60,7 +60,7 @@
     },
     {
       "id": "008",
-      "name": "Papa a la huancaina",
+      "name": "Papa a la Huancaina",
       "description": "Papa sancochada, bañada con salsa de ají molido, leche, aceite y queso fresco, acompañada con huevo, aceitunas y una porción de arroz.",
       "price": 7800,
       "type": "Platillo",
@@ -83,19 +83,37 @@
       "img": "https://i.imgur.com/u9DTl69.jpg"
     }
   ],
-  "aggregates":[
+  "desserts":[
     {
       "id": "011",
+      "name": "Suspiro a la Limeña",
+      "description": "Delicioso postre tradicional peruano, hecho con leche condensada y merengue.",
+      "price": 2000,
+      "type": "Postre",
+      "img": "https://i.imgur.com/lX3FPQ8.jpg"
+    },
+    {
+      "id": "012",
       "name": "Porción de Papas",
-      "description": "Papas cortadas en hilo y fritas en aceite.",
+      "description": "Delicioso postre tradicional peruano, hecho con arroz, canela y miel.",
+      "price": 2000,
+      "type": "Postre",
+      "img": "https://i.imgur.com/eD0niVn.jpg"
+    }
+  ],
+  "aggregates":[
+    {
+      "id": "013",
+      "name": "Porción de Papas",
+      "description": "Papas cortadas en hilo, fritas en aceite vegetal y aromatizadas con romero.",
       "price": 2000,
       "type": "Agregado",
       "img": "https://i.imgur.com/4TWFzcj.jpg"
     },
     {
-      "id": "012",
+      "id": "014",
       "name": "Ensalada surtida",
-      "description": "Ensalada de lechuga con rebanadas de tomate, zanahoria, choclo y pepino.",
+      "description": "Ensalada de lechuga con rebanadas de tomate, zanahoria, choclo, pepino y aderezada con aceite de oliva .",
       "price": 2000,
       "type": "Agregado",
       "img": "https://i.imgur.com/HTxMJlZ.jpg"
